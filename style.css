@@ -1,0 +1,35 @@
+div{
+	box-sizing: border-box;
+	font: sans-serif;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.block_row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.block_box{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 30px;
+	float: left;
+	width: 33.33333333%;
+
+}
+
+.inset{
+	padding: 10px;
+	background: #ddd;
+	display: none;
+}
+
+.block_box .block_hdr{
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-align: center;
+}
